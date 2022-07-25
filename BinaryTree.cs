@@ -148,7 +148,29 @@ namespace binary_tree
             }
 
         }
-        
+        public bool Search(int val)
+        {
+            return Search(root,val);
+        }
+        private static bool Search(Node n, int val)
+        {
+            if (n == null)
+                return false;
+            if(n.Data==val)
+            {
+                return true;
+            }
+            if(val<n.Data)
+            {
+                return Search(n.LeftLink,val);
+            }
+            else
+            {
+                return Search(n.RightLink, val);
+            }
+            return false;
+        }
+
     }
 
 }

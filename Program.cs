@@ -43,6 +43,14 @@ namespace binary_tree
             Console.Write("Outer nodes are : ");
             tree.PrintOuterNodes();
             Console.WriteLine();
+            if (tree.Search(50))
+                Console.WriteLine("Element {0} found",50);
+            else
+                Console.WriteLine("Element {0} not found",51);
+            if (tree.Search(51))
+                Console.WriteLine("Element {0} found",51);
+            else
+                Console.WriteLine("Element {0} not found",51);
             Console.ReadLine();
         }
     }
