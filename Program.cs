@@ -40,6 +40,9 @@ namespace binary_tree
             Console.Write("Leaf nodes are : ");
             tree.PrintLeafNodes();
             Console.WriteLine();
+            Console.Write("Outer nodes are : ");
+            tree.PrintOuterNodes();
+            Console.WriteLine();
             Console.ReadLine();
         }
     }

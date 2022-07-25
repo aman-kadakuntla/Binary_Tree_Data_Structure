@@ -124,5 +124,31 @@ namespace binary_tree
             PrintLeafNodes(n.LeftLink);
             PrintLeafNodes(n.RightLink);
         }
+
+        public void PrintOuterNodes()
+        {
+            Node n = root;
+            while(true)
+            {
+                Console.Write(n.Data + " ");
+                n = n.LeftLink;
+                if (n == null)
+                {
+                    n = root.RightLink;
+                    while(true)
+                    {
+                        Console.Write(n.Data + " ");
+                        n = n.RightLink;
+                        if (n == null)
+                            break;
+                    }
+                    break;
+
+                }
+            }
+
+        }
+        
     }
+
 }
