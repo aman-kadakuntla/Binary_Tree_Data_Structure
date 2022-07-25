@@ -1,0 +1,8 @@
+D:\.net projects\binary tree\binary tree\bin\Debug\binary tree.exe.config
+D:\.net projects\binary tree\binary tree\bin\Debug\binary tree.exe
+D:\.net projects\binary tree\binary tree\bin\Debug\binary tree.pdb
+D:\.net projects\binary tree\binary tree\obj\Debug\binary tree.csproj.AssemblyReference.cache
+D:\.net projects\binary tree\binary tree\obj\Debug\binary tree.csproj.SuggestedBindingRedirects.cache
+D:\.net projects\binary tree\binary tree\obj\Debug\binary tree.csproj.CoreCompileInputs.cache
+D:\.net projects\binary tree\binary tree\obj\Debug\binary tree.exe
+D:\.net projects\binary tree\binary tree\obj\Debug\binary tree.pdb
